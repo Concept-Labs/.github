@@ -1,6 +1,6 @@
 # Viktor Halytskiy
 
-**Web Developer / Full-Stack (PHP, JS)**
+**Web Developer / Full-Stack (PHP, JavaScript, HTML, CSS)**
 
 **Email:** [concept.galitsky@gmail.com](mailto:concept.galitsky@gmail.com)  
 **Telegram:** @concept_galitsky  
