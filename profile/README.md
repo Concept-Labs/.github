@@ -168,7 +168,7 @@ Each package ships a `concept.json` with its preferences. The app can add/overri
 
 Declare middleware in `etc/middleware.json`.\
 **Rule of thumb**: higher priority runs earlier. Reserve “bands” to keep a stable mental model:
-
+*(Recomended but not mandatory)*
 - 9000–8000: **boot** (feature flags, event bus init)\
 - 7900–7000: **security** (CORS, auth, CSRF, rate‑limit)\
 - 6900–6000: **infra** (session, locale, body parsers)\
