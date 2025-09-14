@@ -47,7 +47,7 @@ htdocs/
 └─ pub/http.php        # entrypoint
 etc/
 ├─ default.json        # root config (imports)
-├─ middleware.json     # HTTP pipeline (priorities/before/after)
+├─ middleware.json     # HTTP pipeline (priorities/before/after) - as an example: @import(middleware.json) from default.json
 ├─ router/route.json   # routes
 └─ event-bus.json      # event listeners (optional)
 src/                   # your code
