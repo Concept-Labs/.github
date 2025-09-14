@@ -65,7 +65,7 @@ vendor/                # packages (incl. Concept‑Labs)
 
 ```
             ┌─────────────┐
-Request  →  │  Middleware │  (pipeline: security → session → router → flusher)
+Request  →  │  Middleware │  (pipeline: ...security... → ...session... → ...router... →... flusher)
             └──────┬──────┘
                    │        PSR‑15
                    ▼
@@ -75,7 +75,7 @@ Request  →  │  Middleware │  (pipeline: security → session → router �
                    │
                    ▼
             ┌─────────────┐
-            │   Views     │  phtmal (fluent) / phtml (templates)
+            │   Views     │  phtmal (fluent) / phtml (templates) / pure html + js
             └─────────────┘
 
 Events: PSR‑14 dispatcher + EventBus; early boot via EventBusMiddleware.
