@@ -1,4 +1,4 @@
-# Concept‑Labs Framework
+# Concept‑Labs Simple Framework
 
 **A PSR‑first, modular PHP framework featuring the Singularity DI container, a declarative config DSL, an event bus, a modern HTTP stack, and a pragmatic SQL layer (DBC/DBAL).**
 
