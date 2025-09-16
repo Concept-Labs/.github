@@ -32,7 +32,7 @@
 
 - **PSR‑aligned**: PSR‑7/15/17 for HTTP, PSR‑14 for events, PSR‑11 for DI.\
 - **Explicit over implicit**: behavior is controlled by JSON configs and DI preferences you can read and diff.\
-- **Composable**: each package brings its own `concept.json`, optional middleware, and config. The app chooses what to include.\
+- **Composable**: each package brings its own configuration (`concept.json`) , optional middleware, and config. The app chooses what to include.\
 - **Production‑minded**: guard rails for RoadRunner/Swoole workers, low‑overhead middleware, and clear error boundaries.\
 - **Testable**: builders and adapters are designed for isolation, with minimal singletons and no global state.
 
