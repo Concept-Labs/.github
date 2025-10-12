@@ -1,4 +1,4 @@
-# Concept‑Labs Simple PSR-friendly Framework
+# Concept‑Labs Simple PSR-friendly Ecosystem
 
 **A PSR‑first, modular PHP framework featuring the Singularity DI container, a declarative config DSL, an event bus, a modern HTTP stack, and a pragmatic SQL layer (DBC/DBAL).**
 
