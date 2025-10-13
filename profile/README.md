@@ -39,7 +39,7 @@ This isn't just another framework—it's a **rethinking of how PHP applications 
   }
 }
 ```
-No XML. No YAML. No hidden magic. Just JSON with powerful directives you can understand at a glance.
+No hidden magic. Configuration with powerful directives you can understand at a glance.
 
 ### Drop-In Integration
 Every package includes a `concept.json` that self-describes its dependencies and configuration. Add a package via Composer, and it just works—no manual wiring required.
