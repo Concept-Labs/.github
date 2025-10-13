@@ -62,7 +62,7 @@ The top-level README should include:
   - Latest release version
 - Symbols/branding (as applicable)
 - Philosophy
-  - Concept-Labs Ecosystem overview (dependency injection, Singularity configuration according to the core package: https://github.com/Concept-Labs/singularity)
+  - Concept-Labs Ecosystem overview (dependency injection, Singularity configuration according to the core packages: https://github.com/Concept-Labs/singularity, https://github.com/Concept-Labs/config and related)
 - Conventions
 - Basic “Get Started”
 - Table of Contents with links to sub-documentation
