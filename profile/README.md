@@ -32,7 +32,9 @@ This isn't just another framework—it's a **rethinking of how PHP applications 
     "credentials": "@env(DB_CREDS)"
   },
   "cache": {
-    "driver": "redis",
+    "driver": {
+      "preference": "Acme\\Driver\\RedisInterface"
+    },
     "prefix": "${app.name}"
   }
 }
