@@ -27,15 +27,22 @@ This isn't just another framework—it's a **rethinking of how PHP applications 
 ### Clear Configuration You Can Actually Read
 ```json
 {
+  "@import": [
+    "${BASE}/etc/app.json"
+  ]
+  "app":{
+     "name": "myapp"
+  }
   "database": {
-    "host": "@env(DB_HOST:localhost)",
-    "credentials": "@env(DB_CREDS)"
+    "host": "@env(DB_HOST|localhost)",
+    "credentials": "@include(etc/redis/credetials.json)"
   },
   "cache": {
     "driver": {
+      "@extends": "etc/cache/driver.json",
       "preference": "Acme\\Driver\\RedisInterface"
     },
-    "prefix": "${app.name}"
+    "prefix": "#{app.name}"
   }
 }
 ```
