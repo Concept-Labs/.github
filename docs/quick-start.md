@@ -8,7 +8,7 @@ Get up and running with Concept-Labs in minutes.
 - Composer
 - Web server (Nginx/Apache) or long-running runtime (RoadRunner/Swoole)
 
-## Project Structure
+## Just Example Project Structure (You may do it differnt up to you)
 
 ```
 htdocs/
