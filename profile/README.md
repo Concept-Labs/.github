@@ -4,6 +4,8 @@
 
 **Concept-Labs is a modern PHP ecosystem that eliminates the complexity of traditional frameworks while maintaining enterprise-grade capabilities.**
 
+[![Concept](https://img.shields.io/badge/Concept-ecosystem-violet.svg)](https://github.com/Concept-Labs)
+
 > Stop wrestling with magic and hidden conventions. Build applications where every piece of configuration is transparent, every dependency is explicit, and every component is testable.
 
 ---
