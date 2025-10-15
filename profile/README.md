@@ -16,7 +16,7 @@ After decades of PHP development experience, our founder [Victor Galitsky](https
 
 **The Solution:** A philosophy built on three pillars:
 
-1. **🔍 Transparency Over Magic** - Every configuration is readable JSON. Every dependency is explicit. No surprises.
+1. **🔍 Transparency Over Magic** - Every configuration is readable. Every dependency is explicit. No surprises.
 2. **🧩 Composability Over Monoliths** - Mix and match packages. Each component is self-contained and purposeful.
 3. **🚀 Production-First Design** - Built for long-running processes, high performance, and real-world scale.
 
@@ -49,6 +49,8 @@ This isn't just another framework—it's a **rethinking of how PHP applications 
 }
 ```
 No hidden magic. Configuration with powerful directives you can understand at a glance.
+Diffrenet formats: JSON, PHP, (XML, YAML in progress). 
+Third-party libraris may be used, only need to add appropriate adapters.
 
 ### Drop-In Integration
 Every package includes a `concept.json` that self-describes its dependencies and configuration. Add a package via Composer, and it just works—no manual wiring required.
