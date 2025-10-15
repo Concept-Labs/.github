@@ -72,6 +72,7 @@ Our ecosystem is built on carefully designed, focused packages:
 - **[@Concept-Labs/http](https://github.com/Concept-Labs/http)** - Modern HTTP stack with middleware pipeline
 - **[@Concept-Labs/simple-http](https://github.com/Concept-Labs/simple-http)** - Quick-start HTTP application template
 - **[@Concept-Labs/dbal](https://github.com/Concept-Labs/dbal)** - Database abstraction with fluent query builders
+- More coming soon...
 
 Each package is independently useful, yet they work seamlessly together.
 
