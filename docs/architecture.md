@@ -80,7 +80,7 @@ All components follow PHP-FIG standards for maximum interoperability:
 
 ### Explicit Configuration
 - Behavior controlled by readable JSON configs
-- No hidden magic or implicit conventions
+- Clear and explicit conventions
 - Configuration can be version-controlled and diffed
 
 ## Next Steps

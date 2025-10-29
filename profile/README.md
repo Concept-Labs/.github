@@ -2,25 +2,25 @@
 
 ## Build Enterprise PHP Applications with Clarity and Confidence
 
-**Concept-Labs provides a modern PHP ecosystem that eliminates the complexity of traditional frameworks while maintaining enterprise-grade capabilities.**
+**Concept-Labs provides a modern PHP ecosystem designed for transparency, composability, and production-grade performance.**
 
 [![Concept](https://img.shields.io/badge/Concept-ecosystem-violet.svg)](https://github.com/Concept-Labs)
 
-> Stop wrestling with magic and hidden conventions. Build applications where every piece of configuration is transparent, every dependency is explicit, and every component is testable.
+> Build applications where every piece of configuration is transparent, every dependency is explicit, and every component is testable. An approach that complements the PHP ecosystem with a focus on clarity and control.
 
 ---
 
 ## Why Concept-Labs Exists
 
-After decades of PHP development experience, our founder [Victor Galitsky](https://github.com/vgalitsky) recognized a fundamental problem: **modern PHP frameworks had become too magical**. Hidden conventions, opaque configurations, and deeply buried dependencies made applications harder to understand, debug, and maintain.
+After decades of PHP development experience, our founder [Victor Galitsky](https://github.com/vgalitsky) envisioned a different approach to building PHP applications—one that emphasizes **clarity, explicit design, and developer understanding**. While the PHP ecosystem offers many excellent frameworks, Concept-Labs explores an alternative philosophy focused on transparency and composability.
 
-**The Solution:** A philosophy built on three pillars:
+**Our Philosophy:** Built on three pillars:
 
-1. **🔍 Transparency Over Magic** - Every configuration is readable. Every dependency is explicit. No surprises.
-2. **🧩 Composability Over Monoliths** - Mix and match packages. Each component is self-contained and purposeful.
-3. **🚀 Production-First Design** - Built for long-running processes, high performance, and real-world scale.
+1. **🔍 Transparency First** - Every configuration is readable. Every dependency is explicit. Clear and understandable.
+2. **🧩 Composability by Design** - Mix and match packages. Each component is self-contained and purposeful.
+3. **🚀 Production-Ready** - Built for long-running processes, high performance, and real-world scale.
 
-This isn't just another framework—it's a **rethinking of how PHP applications should be built**, distilled from years of enterprise experience into a lean, powerful ecosystem.
+Concept-Labs offers a **complementary approach** to PHP development, distilled from years of enterprise experience into a lean, powerful ecosystem that works alongside your existing tools and practices.
 
 ---
 
@@ -48,9 +48,9 @@ This isn't just another framework—it's a **rethinking of how PHP applications 
   }
 }
 ```
-No hidden magic. Configuration with powerful directives you can understand at a glance.
-Diffrenet formats: JSON, PHP, (XML, YAML in progress). 
-Third-party libraris may be used, only need to add appropriate adapters.
+Clear and explicit configuration with powerful directives you can understand at a glance.
+Different formats: JSON, PHP, (XML, YAML in progress). 
+Third-party libraries may be used, only need to add appropriate adapters.
 
 ### Drop-In Integration
 Every package includes a `concept.json` that self-describes its dependencies and configuration. Add a package via Composer, and it just works—no manual wiring required.
@@ -144,7 +144,7 @@ php -S localhost:8000 -t pub
 
 ## Who Is Concept-Labs For?
 
-### ✅ Perfect If You:
+### ✅ Concept-Labs Excels When You:
 - Value **explicit over implicit** behavior
 - Want **readable, diff-able configuration**
 - Need **production-grade performance**
@@ -152,11 +152,13 @@ php -S localhost:8000 -t pub
 - Build **long-running PHP applications**
 - Work with **microservices or modular monoliths**
 
-### ⚠️ Consider Alternatives If You:
-- Prefer "convention over configuration" frameworks
-- Want a batteries-included admin panel out-of-the-box
-- Need an ORM with complex relationship management
+### 🔄 Other Great Options Exist When You:
+- Prefer rapid development with "convention over configuration" 
+- Need a full-featured admin panel out-of-the-box
+- Want an ORM with built-in complex relationship management
 - Prefer annotation/attribute-based configuration
+
+*Concept-Labs can work alongside other tools and frameworks in your stack—it's designed to be composable and integrate well with the broader PHP ecosystem.*
 
 ---
 
@@ -171,18 +173,18 @@ php -S localhost:8000 -t pub
 
 ## Philosophy in Practice
 
-> **"An application should be a conversation between its configuration and its code—not a mystery novel."**  
+> **"An application should be a conversation between its configuration and its code—clear, explicit, and understandable."**  
 > — The Concept-Labs Philosophy
 
 We believe that:
 - **Configuration should tell a story** - Open any config file and understand what the app does
-- **Dependencies should be explicit** - No magic resolution or hidden dependencies
+- **Dependencies should be explicit** - Clear resolution and visible dependencies
 - **Packages should self-describe** - Each package brings its own `concept.json`
 - **Production comes first** - Long-running processes, memory efficiency, clear error boundaries
 
-This philosophy emerged from real-world pain points: debugging applications where behavior was determined by hidden conventions, tracking down dependencies buried in framework internals, and fighting framework limitations when scaling to production.
+This philosophy emerged from real-world experience building and maintaining large-scale applications. We've learned that clarity and explicitness can greatly enhance developer productivity and system maintainability.
 
-Concept-Labs exists to solve these problems. **Build with clarity. Deploy with confidence.**
+Concept-Labs offers an approach focused on transparency and control. **Build with clarity. Deploy with confidence.**
 
 ---
 
