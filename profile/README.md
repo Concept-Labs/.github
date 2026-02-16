@@ -1,98 +1,110 @@
 # Concept‑Labs
 
-## Build Enterprise PHP Applications with Clarity and Confidence
+## Experimental Laboratory for PHP Concepts and Patterns
 
-**Concept-Labs provides a modern PHP ecosystem that eliminates the complexity of traditional frameworks while maintaining enterprise-grade capabilities.**
+**Concept-Labs is a laboratory where we experiment with PHP architecture patterns, design concepts, and modern development approaches.**
 
 [![Concept](https://img.shields.io/badge/Concept-ecosystem-violet.svg)](https://github.com/Concept-Labs)
 
-> Stop wrestling with magic and hidden conventions. Build applications where every piece of configuration is transparent, every dependency is explicit, and every component is testable.
+> This is our experimental ground where concepts are born, tested, refined, and validated before moving to production systems.
 
 ---
 
-## Why Concept-Labs Exists
+## What is Concept-Labs?
 
-After decades of PHP development across enterprise applications, our founder [Victor Galitsky](https://github.com/vgalitsky) witnessed a troubling trend: **modern PHP frameworks had become opaque black boxes**. Configuration scattered across dozens of files. Dependencies resolved through hidden magic. Behavior determined by conventions you had to memorize or discover through trial and error.
+Concept-Labs is **a laboratory of concepts** — an experimental environment where we explore, prototype, and validate modern PHP architecture patterns and development approaches.
 
-**The Real Cost?** Hours debugging mysterious behaviors. Days tracking down dependency chains. Weeks battling framework limitations when scaling to production. 
+After concepts go through experimentation, testing, and architectural validation here, they find their way into production projects and systems, such as:
 
-**Concept-Labs is the answer:** A philosophy distilled from hard-won experience, crystallized into three principles:
+- **[juzdy](https://github.com/juzdy)** - Production implementations of validated concepts
+- **[virsh-online](https://github.com/virsh-online)** - Real-world applications using proven patterns
+- And other production systems
 
-1. **🔍 Transparency Over Magic** - Every configuration tells a story. Every dependency is explicit. No surprises, ever.
-2. **🧩 Composability Over Monoliths** - Small, focused packages that do one thing brilliantly. Compose your perfect stack.
-3. **🚀 Production-First Design** - Built for the real world: long-running processes, high concurrency, and unforgiving production environments.
+**Our Approach:** Experiment boldly, test thoroughly, validate rigorously, then deploy to production.
 
-This isn't just another framework—it's a **fundamental rethinking of PHP application architecture**, born from decades of battle scars and refined into an elegant, powerful ecosystem.
+### Core Principles
 
----
+1. **🔬 Experimentation First** - Try new ideas, validate concepts, learn from failures
+2. **🧪 Test-Driven Validation** - Every concept must prove itself through rigorous testing
+3. **📐 Architecture Evolution** - Patterns emerge from real problems, not theory
+4. **🚀 Production Path** - Successful experiments graduate to production systems
 
-## What Makes Concept-Labs Different
-
-### 📖 Configuration That Tells a Story
-Open any config file and instantly understand your application's architecture. No hunting through dozens of files or deciphering magic conventions. Everything is explicit, readable, and version-control friendly. Support for JSON, PHP, with XML and YAML coming soon.
-
-### 🔌 True Drop-In Integration
-Add any Concept-Labs package via Composer and it automatically integrates. Every package carries its own `concept.json` manifest—self-describing dependencies and configuration. Zero manual wiring. Zero surprises.
-
-### ✨ PSR Standards Throughout
-Built on industry standards (**PSR-7, PSR-11, PSR-14, PSR-15, PSR-17**) means your code works seamlessly with the broader PHP ecosystem. Write once, integrate anywhere. Future-proof your applications.
-
-### 🚀 Production-Grade Performance
-Engineered for long-running processes like RoadRunner and Swoole. Low-overhead middleware, efficient memory management, and bulletproof error boundaries ensure your application scales when it matters most.
+This repository serves as the **proving ground** where architectural ideas are transformed into battle-tested solutions.
 
 ---
 
-## The Ecosystem
+## Experimental Focus Areas
 
-Our ecosystem is built on carefully designed, focused packages that solve real problems:
+### Configuration System Research
+Exploring transparent configuration approaches where architecture is self-documenting. Experimenting with JSON, PHP, and evaluating XML/YAML patterns. Focus on explicitness and version control friendliness.
+
+### Dependency Management Studies
+Investigating PSR-11 container patterns with explicit preference systems. Testing approaches to eliminate hidden dependencies and improve code traceability.
+
+### Event-Driven Architecture
+Researching PSR-14 event systems for loose coupling. Validating patterns for component communication and system coordination.
+
+### HTTP Stack Experiments
+Developing PSR-7/PSR-17 message implementations for PHP 8.2+. Testing middleware pipeline architectures and priority-based routing patterns. Targeting long-running process environments (RoadRunner, Swoole).
+
+### Database Layer Prototypes
+Experimenting with fluent query builders and ORM patterns. Focus on security, maintainability, and transparent object mapping.
+
+---
+
+## Current Experiments
+
+Our laboratory includes multiple experimental packages exploring different architectural concepts:
 
 ### Foundation Layer
-- **[@Concept-Labs/config](https://github.com/Concept-Labs/config)** - Transform configuration chaos into clarity with intelligent JSON configuration featuring environment variables, imports, and cross-references
-- **[@Concept-Labs/singularity](https://github.com/Concept-Labs/singularity)** - Take control of dependencies with a PSR-11 container that eliminates guesswork through explicit preferences
+- **[@Concept-Labs/config](https://github.com/Concept-Labs/config)** - Configuration system experiments with JSON DSL, environment variables, and cross-references
+- **[@Concept-Labs/singularity](https://github.com/Concept-Labs/singularity)** - PSR-11 dependency container with explicit preference patterns
 
-### Communication & Events
-- **[@Concept-Labs/event-dispatcher](https://github.com/Concept-Labs/event-dispatcher)** - Decouple your application with a battle-tested PSR-14 event system that keeps components loosely coupled
+### Event Communication
+- **[@Concept-Labs/event-dispatcher](https://github.com/Concept-Labs/event-dispatcher)** - PSR-14 event system prototypes for component decoupling
 
 ### HTTP Stack
-- **[@Concept-Labs/http-message](https://github.com/Concept-Labs/http-message)** - Modern PSR-7/PSR-17 HTTP messages built for PHP 8.2+ with zero compromises
-- **[@Concept-Labs/http](https://github.com/Concept-Labs/http)** - Enterprise-ready HTTP stack with priority-based middleware pipeline for complex applications
-- **[@Concept-Labs/simple-http](https://github.com/Concept-Labs/simple-http)** - Launch HTTP applications in minutes with our quick-start template
+- **[@Concept-Labs/http-message](https://github.com/Concept-Labs/http-message)** - PSR-7/PSR-17 HTTP message implementations for PHP 8.2+
+- **[@Concept-Labs/http](https://github.com/Concept-Labs/http)** - Priority-based middleware pipeline experiments
+- **[@Concept-Labs/simple-http](https://github.com/Concept-Labs/simple-http)** - Quick-start template for HTTP applications
 
 ### Data Layer
-- **[@Concept-Labs/dbal](https://github.com/Concept-Labs/dbal)** - Write secure, maintainable database queries with fluent builders that prevent SQL injection
-- **[@Concept-Labs/orm](https://github.com/Concept-Labs/orm)** - Map objects to databases without sacrificing control or transparency
+- **[@Concept-Labs/dbal](https://github.com/Concept-Labs/dbal)** - Fluent query builder patterns with SQL injection prevention
+- **[@Concept-Labs/orm](https://github.com/Concept-Labs/orm)** - Object-relational mapping experiments
 
 ### Utilities
-- **[@Concept-Labs/arrays](https://github.com/Concept-Labs/arrays)** - Master complex data structures with advanced dot notation and recursive array utilities
-- **[@Concept-Labs/cli](https://github.com/Concept-Labs/cli)** - Build professional command-line tools with elegant APIs
-- **[@Concept-Labs/simple-cache](https://github.com/Concept-Labs/simple-cache)** - PSR-16 caching made simple and reliable
+- **[@Concept-Labs/arrays](https://github.com/Concept-Labs/arrays)** - Advanced array manipulation with dot notation
+- **[@Concept-Labs/cli](https://github.com/Concept-Labs/cli)** - Command-line interface patterns
+- **[@Concept-Labs/simple-cache](https://github.com/Concept-Labs/simple-cache)** - PSR-16 caching implementations
 
-**70+ packages and growing** — Each independently useful, all seamlessly integrated.
-
----
-
-## From Experience to Excellence
-
-What typically takes years to mature has been accelerated through battlefield wisdom:
-
-- **20+ Years of Enterprise Patterns** - Battle-tested solutions from real-world applications serving millions
-- **Lessons from Framework Limitations** - We've hit every wall. Now you don't have to.
-- **Modern PHP Superpowers** - PHP 8.2+ enables abstractions that were impossible before
-- **Focused Architectural Vision** - One experienced architect's relentless pursuit of clarity
-
-**The Result?** A production-ready ecosystem that feels familiar yet revolutionary. The productivity of modern frameworks without the mystery. The control of micro-frameworks without the boilerplate.
+**70+ experimental packages** — Each exploring specific concepts and patterns.
 
 ---
 
-## Get Your First App Running in 5 Minutes
+## Research Background
+
+This experimental work builds on decades of PHP development experience:
+
+- **20+ Years of Architecture Patterns** - Foundation: [Victor Galitsky](https://github.com/vgalitsky)'s enterprise development experience
+- **Framework Analysis** - Studying limitations and opportunities in existing PHP frameworks
+- **Modern PHP Capabilities** - Leveraging PHP 8.2+ features for new architectural patterns
+- **Production Validation** - Concepts proven in production systems before broader adoption
+
+**The Process:** Ideas are prototyped here, tested rigorously, refined through experimentation, and validated in production environments like [juzdy](https://github.com/juzdy) and [virsh-online](https://github.com/virsh-online).
+
+---
+
+## Try Experimental Packages
+
+To explore our experimental HTTP stack:
 
 ```bash
-composer create-project concept-labs/simple-http my-app
-cd my-app && cp etc/default.json.dist etc/default.json
+composer create-project concept-labs/simple-http my-experiment
+cd my-experiment && cp etc/default.json.dist etc/default.json
 php -S localhost:8000 -t pub
 ```
 
-**Done.** No scaffolding. No code generation. No mystery. Just a working application ready for your ideas.
+**Note:** These are experimental packages. For production use, consider validated implementations in [juzdy](https://github.com/juzdy) or [virsh-online](https://github.com/virsh-online).
 
 [→ View Quick Start Guide](../docs/quick-start.md) | [→ Explore Architecture](../docs/architecture.md)
 
@@ -101,23 +113,25 @@ php -S localhost:8000 -t pub
 ## Documentation
 
 ### 📘 Getting Started
-- **[Quick Start Guide](../docs/quick-start.md)** - Get up and running in 5 minutes
-- **[Architecture Overview](../docs/architecture.md)** - Understand the system design
+- **[Quick Start Guide](../docs/quick-start.md)** - Setup experimental environment
+- **[Architecture Overview](../docs/architecture.md)** - Understand experimental design patterns
 
-### 🛠️ Core Components
-- **[Configuration System](../docs/configuration.md)** - Master the JSON DSL
-- **[Dependency Injection](../docs/dependency-injection.md)** - Work with Singularity DI
-- **[HTTP Stack](../docs/http-stack.md)** - Build web applications
-- **[Event System](../docs/events.md)** - Coordinate with events
-- **[Database Layer](../docs/database.md)** - Work with databases
+### 🛠️ Core Experiments
+- **[Configuration System](../docs/configuration.md)** - JSON DSL experiments
+- **[Dependency Injection](../docs/dependency-injection.md)** - Singularity DI patterns
+- **[HTTP Stack](../docs/http-stack.md)** - Middleware architecture experiments
+- **[Event System](../docs/events.md)** - Event-driven patterns
+- **[Database Layer](../docs/database.md)** - DBAL/ORM experiments
 
 ### 📚 Additional Resources
-- **[Testing Guide](../docs/testing.md)** - Write comprehensive tests
-- **Package Documentation** - Detailed docs in each package repository
+- **[Testing Guide](../docs/testing.md)** - Validation methodologies
+- **Package Documentation** - Detailed experiments in each package repository
 
 ---
 
 ## Built on PSR Standards
+
+All experiments follow industry standards for maximum compatibility:
 
 ✅ **PSR-3** - Logging  
 ✅ **PSR-7** - HTTP Messages  
@@ -129,67 +143,65 @@ php -S localhost:8000 -t pub
 
 ---
 
-## Who Should Choose Concept-Labs?
+## Who Uses These Concepts?
 
-### ✅ Perfect For:
-- **Senior developers** who value explicit over implicit behavior
-- **Growing teams** needing readable, maintainable code
-- **Production-critical apps** requiring high performance and reliability
-- **Microservices architectures** benefiting from composable components
-- **Long-running PHP applications** on RoadRunner, Swoole, or similar
-- **API-first projects** needing robust HTTP middleware
+### ✅ Experimental Usage:
+- **Researchers and developers** exploring modern PHP patterns
+- **Teams evaluating** architectural approaches before production adoption
+- **Students and learners** studying contemporary PHP design
+- **Contributors** interested in PHP ecosystem evolution
 
-### 💡 Consider Alternatives If:
-- You prefer "convention over configuration" frameworks like Laravel
-- You need a batteries-included admin panel (consider AdminLTE + your framework)
-- Complex ORM relationship management is your priority (Doctrine may fit better)
-- You're building a quick prototype and don't need long-term maintainability
+### 🚀 Production Implementations:
+For production-ready implementations of these concepts, see:
+- **[juzdy](https://github.com/juzdy)** - Production system using validated patterns
+- **[virsh-online](https://github.com/virsh-online)** - Real-world application implementations
+- Other projects adopting proven concepts
 
-**Honesty builds trust.** Concept-Labs solves specific problems brilliantly—make sure they're your problems.
+**Important:** Concept-Labs is an experimental laboratory. For production use, consider the validated implementations in downstream projects.
 
 ---
 
-## Join the Movement
+## Participate in Research
 
-- **🔥 Explore Packages**: [github.com/Concept-Labs](https://github.com/Concept-Labs) — 70+ repositories and growing
-- **👨‍💻 Meet the Founder**: [Victor Galitsky](https://github.com/vgalitsky) — 20+ years of enterprise PHP expertise
-- **🐛 Report Issues**: Found a bug? Open an issue in the specific package repository
-- **💬 Join Discussions**: Share ideas and get help in package discussions
-- **🤝 Contribute**: Every package welcomes contributions—see individual repos for guidelines
+- **🔬 Explore Experiments**: [github.com/Concept-Labs](https://github.com/Concept-Labs) — 70+ experimental repositories
+- **👨‍💻 Research Lead**: [Victor Galitsky](https://github.com/vgalitsky) — 20+ years PHP architecture experience
+- **🐛 Report Findings**: Discovered an issue? Open an issue in the specific package repository
+- **💬 Discuss Concepts**: Share insights and ideas in package discussions
+- **🤝 Contribute**: Every experiment welcomes contributions—see individual repos for guidelines
 
-**Ready to experience PHP development without the mystery?** Start with [simple-http](https://github.com/Concept-Labs/simple-http) and feel the difference.
-
----
-
-## Philosophy in Practice
-
-> **"Your application should be a conversation between configuration and code—not an archeological expedition."**  
-> — The Concept-Labs Philosophy
-
-Every decision in Concept-Labs stems from real pain points we've experienced:
-
-- **Debugging applications where behavior emerged from hidden conventions** → Configuration now tells the complete story
-- **Tracking dependencies through framework internals** → Dependencies are explicit and traceable
-- **Fighting framework constraints when scaling** → Production requirements drive every design decision
-- **Onboarding developers who need weeks to be productive** → New team members understand the system in hours
-
-Concept-Labs exists because **enterprise applications deserve better than magic tricks**. 
-
-**Build with clarity. Deploy with confidence. Scale without surprises.**
+**Interested in production implementations?** Check out [juzdy](https://github.com/juzdy) and [virsh-online](https://github.com/virsh-online).
 
 ---
 
-## Contributing
+## Laboratory Philosophy
 
-Your expertise makes us stronger. Here's how to contribute:
+> **"Software architecture should be an iterative laboratory process—not a marketing promise."**  
+> — The Concept-Labs Approach
 
-1. **Choose your package** - Browse [our repositories](https://github.com/Concept-Labs) and pick your interest
-2. **Fork and enhance** - Follow PSR-12 coding standards
-3. **Test thoroughly** - Add comprehensive tests for new functionality
-4. **Document clearly** - Update README and docs as needed
-5. **Submit with context** - Create a pull request with clear description of changes
+Our methodology:
 
-Each package has specific contribution guidelines in its repository. **Your pull request helps thousands of developers.**
+- **Prototype in the laboratory** → Test ideas without production constraints
+- **Validate through experimentation** → Rigorous testing and architectural review
+- **Refine based on feedback** → Iterate on concepts based on real usage
+- **Graduate to production** → Proven concepts move to projects like [juzdy](https://github.com/juzdy) and [virsh-online](https://github.com/virsh-online)
+
+Concept-Labs exists as **a safe space for architectural experimentation** where ideas can fail fast or succeed thoroughly before production adoption.
+
+**Experiment boldly. Validate thoroughly. Deploy confidently.**
+
+---
+
+## Contributing to Research
+
+Your insights strengthen our experiments:
+
+1. **Choose an experiment** - Browse [our repositories](https://github.com/Concept-Labs) and select your area of interest
+2. **Fork and experiment** - Follow PSR-12 coding standards
+3. **Validate thoroughly** - Add comprehensive tests for new concepts
+4. **Document findings** - Update README and documentation with insights
+5. **Share results** - Create a pull request describing your experimental findings
+
+Each experimental package has specific contribution guidelines. **Your research helps the entire PHP community.**
 
 ---
 
@@ -199,8 +211,8 @@ MIT License - see individual package repositories for details.
 
 ---
 
-**Built with ❤️ and 20 years of hard-won experience.**
+**Research foundation with 20+ years of architectural experience.**
 
 ---
 
-_Concept-Labs: Enterprise PHP Without the Mystery._
+_Concept-Labs: Experimental Laboratory for PHP Architecture._
