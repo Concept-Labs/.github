@@ -17,7 +17,6 @@ Concept-Labs is **a laboratory of concepts** — an experimental environment whe
 After concepts go through experimentation, testing, and architectural validation here, they find their way into production projects and systems, such as:
 
 - **[juzdy](https://github.com/juzdy)** - Production implementations of validated concepts
-- **[virsh-online](https://github.com/virsh-online)** - Real-world applications using proven patterns
 - And other production systems
 
 **Our Approach:** Experiment boldly, test thoroughly, validate rigorously, then deploy to production.
