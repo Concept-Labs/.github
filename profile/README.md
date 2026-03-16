@@ -89,7 +89,7 @@ This experimental work builds on decades of PHP development experience:
 - **Modern PHP Capabilities** - Leveraging PHP 8.2+ features for new architectural patterns
 - **Production Validation** - Concepts proven in production systems before broader adoption
 
-**The Process:** Ideas are prototyped here, tested rigorously, refined through experimentation, and validated in production environments like [juzdy](https://github.com/juzdy) and [virsh-online](https://github.com/virsh-online).
+**The Process:** Ideas are prototyped here, tested rigorously, refined through experimentation, and validated in production environments like [juzdy]
 
 ---
 
@@ -103,7 +103,7 @@ cd my-experiment && cp etc/default.json.dist etc/default.json
 php -S localhost:8000 -t pub
 ```
 
-**Note:** These are experimental packages. For production use, consider validated implementations in [juzdy](https://github.com/juzdy) or [virsh-online](https://github.com/virsh-online).
+**Note:** These are experimental packages. For production use, consider validated implementations in [juzdy](https://github.com/juzdy)
 
 [→ View Quick Start Guide](../docs/quick-start.md) | [→ Explore Architecture](../docs/architecture.md)
 
@@ -153,7 +153,6 @@ All experiments follow industry standards for maximum compatibility:
 ### 🚀 Production Implementations:
 For production-ready implementations of these concepts, see:
 - **[juzdy](https://github.com/juzdy)** - Production system using validated patterns
-- **[virsh-online](https://github.com/virsh-online)** - Real-world application implementations
 - Other projects adopting proven concepts
 
 **Important:** Concept-Labs is an experimental laboratory. For production use, consider the validated implementations in downstream projects.
@@ -168,7 +167,7 @@ For production-ready implementations of these concepts, see:
 - **💬 Discuss Concepts**: Share insights and ideas in package discussions
 - **🤝 Contribute**: Every experiment welcomes contributions—see individual repos for guidelines
 
-**Interested in production implementations?** Check out [juzdy](https://github.com/juzdy) and [virsh-online](https://github.com/virsh-online).
+**Interested in production implementations?** Check out [juzdy](https://github.com/juzdy)
 
 ---
 
@@ -182,7 +181,7 @@ Our methodology:
 - **Prototype in the laboratory** → Test ideas without production constraints
 - **Validate through experimentation** → Rigorous testing and architectural review
 - **Refine based on feedback** → Iterate on concepts based on real usage
-- **Graduate to production** → Proven concepts move to projects like [juzdy](https://github.com/juzdy) and [virsh-online](https://github.com/virsh-online)
+- **Graduate to production** → Proven concepts move to projects like [juzdy](https://github.com/juzdy)
 
 Concept-Labs exists as **a safe space for architectural experimentation** where ideas can fail fast or succeed thoroughly before production adoption.
 
